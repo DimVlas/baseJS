@@ -1,0 +1,11 @@
+.hidden_div{
+    visibility: hidden;
+}
+
+.visible_div{
+    visibility: visible;
+}
+
+.active{
+    color:red;
+}
