@@ -21,13 +21,14 @@ btn.onclick = function () {
     // div.style.color = 'green'
     // div.innerHTML = 'an event occurred'
     
-    if (div.classList.contains('hidden_div')){
-        div.classList.remove('hidden_div')
-        div.classList.add('visible_div')
-    }else{
+    // if (div.classList.contains('hidden_div')){
+    //     div.classList.remove('hidden_div')
+    //     div.classList.add('visible_div')
+    // }else{
         
-        div.classList.remove('visible_div')
-        div.classList.add('hidden_div')
-    }
+    //     div.classList.remove('visible_div')
+    //     div.classList.add('hidden_div')
+    // }
 
+    div.classList.toggle('hidden_div');
 }
