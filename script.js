@@ -36,7 +36,7 @@ function btnClick() {
     let div = document.querySelector('.some')
     div.classList.toggle('hidden_div');
 
-    let inp = document.querySelector('input');
+    let inp = document.querySelector('.inp');
     inp.value = "";
 }
 
@@ -44,12 +44,13 @@ function pageLoaded() {
     let btn = document.querySelector('button');
     btn.addEventListener('click', btnClick);
 
-    let inp = document.querySelector('input');
+    let inp = document.querySelector('.inp');
     console.log(inp);
-    //inp.value = 'aaaaaaaaaaa';
-    inp.oninput = function(ev){
+    inp.addEventListener('input', function (e) {
         console.log(inp.value);
-    }
+        console.log(this.value);
+        console.log(e.target.value);
+    });
 
 }
 
