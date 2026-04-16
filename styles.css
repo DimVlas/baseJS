@@ -9,3 +9,8 @@
 .active{
     color:red;
 }
+
+.hide{
+    visibility: hidden;
+    /* display: none */
+}
