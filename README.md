@@ -3,4 +3,4 @@
 
 https://rutube.ru/plst/1142480?r=wd
 
-lesson_04: https://rutube.ru/video/294f8f49b79828d01415cdb598d06951/?playlist=1142480
+lesson_06: https://rutube.ru/video/9698a8c2876728a0be8d899298892dbe/?r=wd
