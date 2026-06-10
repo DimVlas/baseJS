@@ -102,3 +102,19 @@ function clickAsk() {
 
   ans.classList.remove("hide");
 }
+
+function clickAskTeacher() {
+  const item = this.closest(".item");
+  const answer = item.closest(".answer");
+
+  if (!answer.classList.contains("hide")) return;
+
+  const answeToCloseList = item
+    .closest(".faq")
+    .querySelectorAll(".answer:not(.hide)");
+  for (let a of answeToCloseList) {
+    a.classList.add("hide");
+  }
+
+  answer.classList.remove("hide");
+}
