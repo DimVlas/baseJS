@@ -1,16 +1,16 @@
-.hidden_div{
+.hidden_div {
     visibility: hidden;
 }
 
-.visible_div{
+.visible_div {
     visibility: visible;
 }
 
-.active{
-    color:red;
+.active {
+    color: red;
 }
 
-.hide{
+.hide {
     visibility: hidden;
     /* display: none */
 }
